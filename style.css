@@ -6,6 +6,9 @@ h1 {background-color: rgb(200, 238, 130);
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
+    text-transform: uppercase;
+    text-orientation: sideways;
+    
 }
 
 p {
@@ -51,7 +54,7 @@ input, textarea {
     margin:25px
 }
 
-body{background-image:url(./images/zombie.jpeg) ; border: 12px solid darkorange ;}
+body{background-image:url(./images/giphy\ \(1\).gif) ; border: 12px solid darkorange ;}
 
 div>p {color:pink; border:42pt;}
 
