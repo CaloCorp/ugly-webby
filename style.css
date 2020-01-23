@@ -1,4 +1,4 @@
-h1 {background-color: violet;
+h1 {background-color: rgb(200, 238, 130);
     color: #111;
     font-family: fantasy;
     font-size: 235px;
@@ -9,7 +9,6 @@ h1 {background-color: violet;
 }
 
 p {
-    color:yellowgreen
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 25px;
     line-height: 24px;
@@ -25,6 +24,7 @@ textarea {
 }
 
 ul, ol {
+    color:yellowgreen ;
     margin: 20px;
     padding: 0;
 }
@@ -35,7 +35,7 @@ li {
 }
    
 li:last-child {
-    border: none;
+    border: 5 ;
 }
 
 form {
@@ -47,8 +47,12 @@ form {
 }
     
 input, textarea {
-    padding:5px;
-    margin:5px
+    padding:10px;
+    margin:25px
 }
 
-body{background-image:url(./images/zombie.jpeg) ;}
+body{background-image:url(./images/zombie.jpeg) ; border: 12px solid darkorange ;}
+
+div>p {color:pink; border:42pt;}
+
+h3{font-size: 50px; color:chocolate ;}
